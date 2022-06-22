@@ -1,0 +1,179 @@
+aside{
+    background: var(--primary);
+    width: 100%;
+    max-width: 80px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.user__info{
+    max-height: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    
+}
+
+.footer__nav{
+    max-height: 200px;
+    height: 100%;
+    max-height: 200px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn__logout{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    font-weight: 500px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn__logout label {
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.user__info .user__image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+}
+
+.user__info .user__image img{
+   max-width: 90px;
+   width: 100%;
+   height: 100%;
+   max-height: 90px;
+   border-radius: 50%;
+  
+}
+
+.user__name{
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.menu__items{
+    height: 100%;
+    max-height: 200px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__items button {
+    border-radius: 30%;
+    border: none;
+    font-size: 16px;
+    width: 50px;
+    height: 50px;
+    background: #0000002e;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.6s;
+    position: relative;
+    outline-width: 0px;
+}
+
+.menu__items button:hover{
+    border-radius: 50%;
+    color: rgb(211, 211, 211);
+}
+
+.menu__items button label{
+    position: absolute;
+    /* width: 25px; */
+    /* height: 27px; */
+    font-size: 12px;
+    background: rgb(255 0 85);
+    /* padding: 8px; */
+    display: flex;
+    border-radius: 50%;
+    height: 20px;
+    width:20px;
+    align-items: center; 
+    display: flex;
+    justify-content: center;
+    top: 0;
+    right:0;
+   
+
+}
+
+.notification__card{
+    width: 100%;
+    max-width: 400px;
+    height: 500px;
+    background: white;
+    margin: 14px;
+    border-radius: 9px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px #0000001a;
+    
+}
+
+.notification__card__header{
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.notification__card__body{
+
+   
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    height: 100%;
+    
+    overflow-y: auto;
+}
+
+.notification__card__body .notification__card__item {
+    
+    width: 100%;
+    display: flex;
+    padding: 10px;
+    height: 100%;
+    max-height: 70px;
+   align-items: center;
+    
+}
+
+.notification__card__body .notification__card__item:hover {
+    background-color: rgba(156, 156, 156, 0.541);
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.notification__card__body .notification__card__item .notification__user_img img{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    
+}
+
+.notification__card__body .notification__card__item .notification__user_noti{
+    width: 100%;
+    height: auto;
+}
+.notification__card__body .notification__card__item .notification__user_noti label {
+    font-weight: 400;
+    color: rgb(122, 122, 122);
+    margin-left: 10px;
+}
+.notification__card__body .notification__card__item .notification__user_noti span {
+    font-weight: 600;
+    color: rgb(37, 37, 37);
+}
